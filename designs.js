@@ -1,3 +1,4 @@
+$(document).ready(function () {
 // Select color input
 const colorPicker = $('#color_picker');
 // Select size input
@@ -65,3 +66,4 @@ function makeGrid() {
 		h++;
 	}
 }
+});
